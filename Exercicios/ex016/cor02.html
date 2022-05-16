@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{ /* Configurações globais das CSS */
+            height: 100%;
+        }
+
+        body{
+            background-image: linear-gradient(to bottom, white, #00bb9c 50%, #7df2ef);
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px*(Recomendado), pt, pc
+
+            Medidas Relativas
+            em*(Recomendado), ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* Lighter, Normal, Bold, Bolder (Tag relacionada ao Peso da fonte) */
+            font-style: italic;
+            /* (tag para selecionar o estilo da fonte) */
+            text-decoration: underline;
+            /* (tag para sublinhar o texto) */ 
+            /* (Tag de atalho para inserir fontes nessa seguinte ordem...)
+            font-style -> font-weight -> font-size -> font-family. */
+            /* (font: italic bolder 3em 'Work Sans' sans-serif;) */
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Testando Gradiente</h1>
+</body>
+</html>
